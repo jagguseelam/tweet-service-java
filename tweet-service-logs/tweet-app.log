@@ -1,0 +1,1295 @@
+2021-04-24 14:15:32.861  INFO 15088 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 15088 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 14:15:32.866  INFO 15088 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 14:15:33.097  INFO 15088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-24 14:15:33.097  INFO 15088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-24 14:15:33.948  INFO 15088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 14:15:34.090  INFO 15088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 14:15:34.676  INFO 15088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 14:15:34.687  INFO 15088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 14:15:34.689  INFO 15088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 14:15:34.798  INFO 15088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 14:15:34.799  INFO 15088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1700 ms
+2021-04-24 14:15:35.051  INFO 15088 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 14:15:35.136  INFO 15088 --- [cluster-rtt-ClusterId{value='6083daafdc77d97ed0b805e5', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:698}] to localhost:27017
+2021-04-24 14:15:35.150  INFO 15088 --- [cluster-ClusterId{value='6083daafdc77d97ed0b805e5', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:699}] to localhost:27017
+2021-04-24 14:15:35.150  INFO 15088 --- [cluster-ClusterId{value='6083daafdc77d97ed0b805e5', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22300199}
+2021-04-24 14:15:35.440  INFO 15088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 14:15:35.899  INFO 15088 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 14:15:36.343  INFO 15088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8021 (http) with context path ''
+2021-04-24 14:15:36.368  INFO 15088 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Started TweetServiceApplication in 4.176 seconds (JVM running for 5.44)
+2021-04-24 14:15:36.374  INFO 15088 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Tweet Application Started Successfully....
+2021-04-24 14:56:30.344  INFO 15088 --- [http-nio-8021-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-24 14:56:30.347  INFO 15088 --- [http-nio-8021-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-24 14:56:30.377  INFO 15088 --- [http-nio-8021-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2021-04-24 14:56:30.813  INFO 15088 --- [http-nio-8021-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:700}] to localhost:27017
+2021-04-24 16:10:53.308  INFO 14512 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 14512 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 16:10:53.314  INFO 14512 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 16:10:53.568  INFO 14512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-24 16:10:53.568  INFO 14512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-24 16:10:54.574  INFO 14512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 16:10:54.668  INFO 14512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 16:10:54.998  INFO 14512 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$c16e11fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-24 16:10:55.428  INFO 14512 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 16:10:55.461  INFO 14512 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 16:10:55.461  INFO 14512 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 16:10:55.557  INFO 14512 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 16:10:55.558  INFO 14512 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1988 ms
+2021-04-24 16:10:55.903  INFO 14512 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 16:10:56.017  INFO 14512 --- [cluster-rtt-ClusterId{value='6083f5b7ca7fbd3bb5b02002', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:703}] to localhost:27017
+2021-04-24 16:10:56.066  INFO 14512 --- [cluster-ClusterId{value='6083f5b7ca7fbd3bb5b02002', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:704}] to localhost:27017
+2021-04-24 16:10:56.067  INFO 14512 --- [cluster-ClusterId{value='6083f5b7ca7fbd3bb5b02002', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47002200}
+2021-04-24 16:10:56.404  INFO 14512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 16:10:57.310  INFO 14512 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 16:10:57.679  WARN 14512 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration': Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+2021-04-24 16:10:57.683  INFO 14512 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-24 16:10:57.694  INFO 14512 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-24 16:10:57.716  INFO 14512 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-24 16:10:57.767 ERROR 14512 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration': Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.tweetapp.TweetServiceApplication.main(TweetServiceApplication.java:15) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Executable.getGenericParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.getGenericParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:513) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:291) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:107) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1421) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1342) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1324) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1291) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.getResolvableType(DependencyDescriptor.java:314) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.checkGenericTypeMatch(GenericTypeAwareAutowireCandidateResolver.java:77) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.isAutowireCandidate(GenericTypeAwareAutowireCandidateResolver.java:69) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver.isAutowireCandidate(QualifierAnnotationAutowireCandidateResolver.java:146) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:853) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:812) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:795) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1561) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1343) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.transaction.KafkaAwareTransactionManager
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_201]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.8.0_201]
+	... 53 common frames omitted
+
+2021-04-24 16:19:58.688  INFO 13800 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 13800 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 16:19:58.698  INFO 13800 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 16:19:58.899  INFO 13800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-24 16:19:58.899  INFO 13800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-24 16:19:59.749  INFO 13800 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 16:19:59.835  INFO 13800 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 16:20:00.108  INFO 13800 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$bc7391b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-24 16:20:00.468  INFO 13800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 16:20:00.482  INFO 13800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 16:20:00.484  INFO 13800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 16:20:00.591  INFO 13800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 16:20:00.591  INFO 13800 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1690 ms
+2021-04-24 16:20:00.887  INFO 13800 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 16:20:00.956  INFO 13800 --- [cluster-rtt-ClusterId{value='6083f7d884950c7ee4377df2', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:705}] to localhost:27017
+2021-04-24 16:20:00.961  INFO 13800 --- [cluster-ClusterId{value='6083f7d884950c7ee4377df2', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:706}] to localhost:27017
+2021-04-24 16:20:00.961  INFO 13800 --- [cluster-ClusterId{value='6083f7d884950c7ee4377df2', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=26514700}
+2021-04-24 16:20:01.163  INFO 13800 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 16:20:01.590  INFO 13800 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 16:20:01.920  WARN 13800 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration': Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+2021-04-24 16:20:01.921  INFO 13800 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-24 16:20:01.929  INFO 13800 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-24 16:20:01.948  INFO 13800 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-24 16:20:01.981 ERROR 13800 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration': Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.tweetapp.TweetServiceApplication.main(TweetServiceApplication.java:15) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Executable.getGenericParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.getGenericParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:513) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:291) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:107) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1421) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1342) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1324) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1291) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.getResolvableType(DependencyDescriptor.java:314) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.checkGenericTypeMatch(GenericTypeAwareAutowireCandidateResolver.java:77) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.isAutowireCandidate(GenericTypeAwareAutowireCandidateResolver.java:69) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver.isAutowireCandidate(QualifierAnnotationAutowireCandidateResolver.java:146) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:853) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:812) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:795) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1561) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1343) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.transaction.KafkaAwareTransactionManager
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_201]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.8.0_201]
+	... 53 common frames omitted
+
+2021-04-24 17:02:46.528  INFO 6056 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 6056 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 17:02:46.568  INFO 6056 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 17:02:46.887  INFO 6056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-24 17:02:46.888  INFO 6056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-24 17:02:48.568  INFO 6056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 17:02:48.758  INFO 6056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 182 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 17:02:49.307  INFO 6056 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$ce4b48e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-24 17:02:49.991  INFO 6056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 17:02:50.080  INFO 6056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 17:02:50.081  INFO 6056 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 17:02:50.251  INFO 6056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 17:02:50.254  INFO 6056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3364 ms
+2021-04-24 17:02:50.766  INFO 6056 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 17:02:51.003  INFO 6056 --- [cluster-ClusterId{value='608401e2a5229545c5d33337', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:707}] to localhost:27017
+2021-04-24 17:02:51.004  INFO 6056 --- [cluster-ClusterId{value='608401e2a5229545c5d33337', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=39834900}
+2021-04-24 17:02:51.012  INFO 6056 --- [cluster-rtt-ClusterId{value='608401e2a5229545c5d33337', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:708}] to localhost:27017
+2021-04-24 17:02:51.362  INFO 6056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 17:02:52.335  INFO 6056 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:02:52.706  WARN 6056 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration': Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+2021-04-24 17:02:52.708  INFO 6056 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:02:52.720  INFO 6056 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-24 17:02:52.740  INFO 6056 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-24 17:02:52.846 ERROR 6056 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration': Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.tweetapp.TweetServiceApplication.main(TweetServiceApplication.java:15) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Executable.getGenericParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.getGenericParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:513) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:291) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:107) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1421) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1342) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1324) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1291) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.getResolvableType(DependencyDescriptor.java:314) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.checkGenericTypeMatch(GenericTypeAwareAutowireCandidateResolver.java:77) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.isAutowireCandidate(GenericTypeAwareAutowireCandidateResolver.java:69) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver.isAutowireCandidate(QualifierAnnotationAutowireCandidateResolver.java:146) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:853) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:812) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:795) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1561) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1343) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.transaction.KafkaAwareTransactionManager
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_201]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.8.0_201]
+	... 53 common frames omitted
+
+2021-04-24 17:07:00.471  INFO 6676 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 6676 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 17:07:00.476  INFO 6676 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 17:07:00.670  INFO 6676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-24 17:07:00.671  INFO 6676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-24 17:07:01.753  INFO 6676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 17:07:01.865  INFO 6676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 17:07:02.215  INFO 6676 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$8a5a50fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-24 17:07:02.661  INFO 6676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 17:07:02.673  INFO 6676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 17:07:02.674  INFO 6676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 17:07:02.787  INFO 6676 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 17:07:02.788  INFO 6676 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2101 ms
+2021-04-24 17:07:03.146  INFO 6676 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 17:07:03.280  INFO 6676 --- [cluster-rtt-ClusterId{value='608402df2f36e719b456fb8b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:709}] to localhost:27017
+2021-04-24 17:07:03.302  INFO 6676 --- [cluster-ClusterId{value='608402df2f36e719b456fb8b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:710}] to localhost:27017
+2021-04-24 17:07:03.303  INFO 6676 --- [cluster-ClusterId{value='608402df2f36e719b456fb8b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=84067100}
+2021-04-24 17:07:03.584  INFO 6676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 17:07:04.215  INFO 6676 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:07:04.469  WARN 6676 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration': Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+2021-04-24 17:07:04.472  INFO 6676 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:07:04.499  INFO 6676 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-24 17:07:04.524  INFO 6676 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-24 17:07:04.588 ERROR 6676 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration': Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.tweetapp.TweetServiceApplication.main(TweetServiceApplication.java:15) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: java.lang.TypeNotPresentException: Type org.springframework.kafka.transaction.KafkaAwareTransactionManager not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Executable.getGenericParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Constructor.getGenericParameterTypes(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:513) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:291) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:107) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1421) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1342) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1324) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1291) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.getResolvableType(DependencyDescriptor.java:314) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.checkGenericTypeMatch(GenericTypeAwareAutowireCandidateResolver.java:77) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.isAutowireCandidate(GenericTypeAwareAutowireCandidateResolver.java:69) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver.isAutowireCandidate(QualifierAnnotationAutowireCandidateResolver.java:146) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:853) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:812) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:795) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1561) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1343) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.transaction.KafkaAwareTransactionManager
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_201]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.8.0_201]
+	... 53 common frames omitted
+
+2021-04-24 17:13:39.960  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 14960 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 17:13:39.970  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 17:13:40.045  INFO 14960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-24 17:13:40.045  INFO 14960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-24 17:13:40.972  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 17:13:41.070  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 17:13:41.772  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 17:13:41.784  INFO 14960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 17:13:41.785  INFO 14960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 17:13:41.872  INFO 14960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 17:13:41.872  INFO 14960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1825 ms
+2021-04-24 17:13:42.169  INFO 14960 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 17:13:42.282  INFO 14960 --- [cluster-ClusterId{value='6084046ee2dcd40eb80c97ab', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:711}] to localhost:27017
+2021-04-24 17:13:42.284  INFO 14960 --- [cluster-ClusterId{value='6084046ee2dcd40eb80c97ab', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=42757101}
+2021-04-24 17:13:42.286  INFO 14960 --- [cluster-rtt-ClusterId{value='6084046ee2dcd40eb80c97ab', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:712}] to localhost:27017
+2021-04-24 17:13:42.544  INFO 14960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 17:13:43.000  INFO 14960 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:13:43.499  INFO 14960 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-kafka-tweet-service-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = kafka-tweet-service
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-04-24 17:13:43.590  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.6.0
+2021-04-24 17:13:43.593  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 62abe01bee039651
+2021-04-24 17:13:43.593  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619264623589
+2021-04-24 17:13:43.599  INFO 14960 --- [restartedMain] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Subscribed to topic(s): Notifications
+2021-04-24 17:13:43.607  INFO 14960 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-04-24 17:13:43.625  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8021 (http) with context path ''
+2021-04-24 17:13:43.642  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Started TweetServiceApplication in 4.295 seconds (JVM running for 5.446)
+2021-04-24 17:13:43.648  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Tweet Application Started Successfully....
+2021-04-24 17:13:44.127  WARN 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Error while fetching metadata with correlation id 2 : {Notifications=LEADER_NOT_AVAILABLE}
+2021-04-24 17:13:44.130  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Cluster ID: 24mMklN9QFyFdvurv8aiBg
+2021-04-24 17:13:44.304  WARN 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Error while fetching metadata with correlation id 4 : {Notifications=LEADER_NOT_AVAILABLE}
+2021-04-24 17:13:44.416  WARN 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Error while fetching metadata with correlation id 6 : {Notifications=LEADER_NOT_AVAILABLE}
+2021-04-24 17:13:44.526  WARN 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Error while fetching metadata with correlation id 8 : {Notifications=LEADER_NOT_AVAILABLE}
+2021-04-24 17:13:44.638  WARN 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Error while fetching metadata with correlation id 10 : {Notifications=LEADER_NOT_AVAILABLE}
+2021-04-24 17:13:44.752  WARN 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient   : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Error while fetching metadata with correlation id 12 : {Notifications=LEADER_NOT_AVAILABLE}
+2021-04-24 17:13:47.248  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Discovered group coordinator host.docker.internal:9092 (id: 2147483647 rack: null)
+2021-04-24 17:13:47.252  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:13:47.308  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Join group failed with org.apache.kafka.common.errors.CoordinatorLoadInProgressException: The coordinator is loading and hence can't process requests.
+2021-04-24 17:13:47.319  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:13:47.338  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Join group failed with org.apache.kafka.common.errors.CoordinatorLoadInProgressException: The coordinator is loading and hence can't process requests.
+2021-04-24 17:13:47.341  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:13:47.347  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Join group failed with org.apache.kafka.common.errors.CoordinatorLoadInProgressException: The coordinator is loading and hence can't process requests.
+2021-04-24 17:13:47.355  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:13:47.400  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group.
+2021-04-24 17:13:47.401  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:13:47.529  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Finished assignment for group at generation 1: {consumer-kafka-tweet-service-1-6688a9f1-b4b0-401d-9c4d-477fee2c17bc=Assignment(partitions=[Notifications-0])}
+2021-04-24 17:13:47.702  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Successfully joined group with generation 1
+2021-04-24 17:13:47.706  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Notifying assignor about the new Assignment(partitions=[Notifications-0])
+2021-04-24 17:13:47.714  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Adding newly assigned partitions: Notifications-0
+2021-04-24 17:13:47.748  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Found no committed offset for partition Notifications-0
+2021-04-24 17:13:47.772  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Resetting offset for partition Notifications-0 to offset 0.
+2021-04-24 17:13:47.775  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : kafka-tweet-service: partitions assigned: [Notifications-0]
+2021-04-24 17:14:06.414  INFO 14960 --- [http-nio-8021-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-24 17:14:06.415  INFO 14960 --- [http-nio-8021-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-24 17:14:06.417  INFO 14960 --- [http-nio-8021-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-24 17:14:06.460  WARN 14960 --- [http-nio-8021-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'notification' for method parameter type String is not present]
+2021-04-24 17:14:35.466  WARN 14960 --- [http-nio-8021-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'notification' for method parameter type String is not present]
+2021-04-24 17:17:03.821  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Revoke previously assigned partitions Notifications-0
+2021-04-24 17:17:03.822  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : kafka-tweet-service: partitions revoked: [Notifications-0]
+2021-04-24 17:17:03.823  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Member consumer-kafka-tweet-service-1-6688a9f1-b4b0-401d-9c4d-477fee2c17bc sending LeaveGroup request to coordinator host.docker.internal:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2021-04-24 17:17:03.825  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-kafka-tweet-service-1, groupId=kafka-tweet-service] Unsubscribed all topics or patterns and assigned partitions
+2021-04-24 17:17:03.825  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-04-24 17:17:03.860  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] essageListenerContainer$ListenerConsumer : kafka-tweet-service: Consumer stopped
+2021-04-24 17:17:03.867  INFO 14960 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:17:04.269  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 14960 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 17:17:04.270  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 17:17:04.672  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 17:17:04.706  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 17:17:04.915  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 17:17:04.918  INFO 14960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 17:17:04.919  INFO 14960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 17:17:04.965  INFO 14960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 17:17:04.965  INFO 14960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 683 ms
+2021-04-24 17:17:05.039  INFO 14960 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 17:17:05.054  INFO 14960 --- [cluster-ClusterId{value='60840539e2dcd40eb80c97ac', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:713}] to localhost:27017
+2021-04-24 17:17:05.064  INFO 14960 --- [cluster-ClusterId{value='60840539e2dcd40eb80c97ac', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10535500}
+2021-04-24 17:17:05.069  INFO 14960 --- [cluster-rtt-ClusterId{value='60840539e2dcd40eb80c97ac', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:4, serverValue:714}] to localhost:27017
+2021-04-24 17:17:05.096  INFO 14960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 17:17:05.279  INFO 14960 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:17:05.390  INFO 14960 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-kafka-tweet-service-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = kafka-tweet-service
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-04-24 17:17:05.406  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.6.0
+2021-04-24 17:17:05.406  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 62abe01bee039651
+2021-04-24 17:17:05.406  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619264825406
+2021-04-24 17:17:05.407  INFO 14960 --- [restartedMain] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Subscribed to topic(s): Notifications
+2021-04-24 17:17:05.407  INFO 14960 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-04-24 17:17:05.414  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8021 (http) with context path ''
+2021-04-24 17:17:05.421  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Started TweetServiceApplication in 1.318 seconds (JVM running for 207.226)
+2021-04-24 17:17:05.432  INFO 14960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-24 17:17:05.434  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Tweet Application Started Successfully....
+2021-04-24 17:17:05.448  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Cluster ID: 24mMklN9QFyFdvurv8aiBg
+2021-04-24 17:17:05.450  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Discovered group coordinator host.docker.internal:9092 (id: 2147483647 rack: null)
+2021-04-24 17:17:05.451  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:17:05.458  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group.
+2021-04-24 17:17:05.459  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:17:05.465  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Finished assignment for group at generation 3: {consumer-kafka-tweet-service-2-b9a8dfdc-54d8-4eef-b2d0-1487ee780936=Assignment(partitions=[Notifications-0])}
+2021-04-24 17:17:05.480  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Successfully joined group with generation 3
+2021-04-24 17:17:05.481  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Notifying assignor about the new Assignment(partitions=[Notifications-0])
+2021-04-24 17:17:05.481  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Adding newly assigned partitions: Notifications-0
+2021-04-24 17:17:05.483  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Found no committed offset for partition Notifications-0
+2021-04-24 17:17:05.490  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Resetting offset for partition Notifications-0 to offset 0.
+2021-04-24 17:17:05.490  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : kafka-tweet-service: partitions assigned: [Notifications-0]
+2021-04-24 17:17:06.890  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Revoke previously assigned partitions Notifications-0
+2021-04-24 17:17:06.890  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : kafka-tweet-service: partitions revoked: [Notifications-0]
+2021-04-24 17:17:06.890  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Member consumer-kafka-tweet-service-2-b9a8dfdc-54d8-4eef-b2d0-1487ee780936 sending LeaveGroup request to coordinator host.docker.internal:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2021-04-24 17:17:06.891  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-kafka-tweet-service-2, groupId=kafka-tweet-service] Unsubscribed all topics or patterns and assigned partitions
+2021-04-24 17:17:06.891  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-04-24 17:17:06.906  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] essageListenerContainer$ListenerConsumer : kafka-tweet-service: Consumer stopped
+2021-04-24 17:17:06.910  INFO 14960 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:17:07.138  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 14960 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 17:17:07.139  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 17:17:07.407  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 17:17:07.437  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 17:17:07.547  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 17:17:07.549  INFO 14960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 17:17:07.550  INFO 14960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 17:17:07.569  INFO 14960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 17:17:07.569  INFO 14960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 425 ms
+2021-04-24 17:17:07.613  INFO 14960 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 17:17:07.632  INFO 14960 --- [cluster-ClusterId{value='6084053be2dcd40eb80c97ad', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:5, serverValue:715}] to localhost:27017
+2021-04-24 17:17:07.634  INFO 14960 --- [cluster-ClusterId{value='6084053be2dcd40eb80c97ad', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13019600}
+2021-04-24 17:17:07.637  INFO 14960 --- [cluster-rtt-ClusterId{value='6084053be2dcd40eb80c97ad', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:6, serverValue:716}] to localhost:27017
+2021-04-24 17:17:07.648  INFO 14960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 17:17:07.915  INFO 14960 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:17:08.149  INFO 14960 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-kafka-tweet-service-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = kafka-tweet-service
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-04-24 17:17:08.168  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.6.0
+2021-04-24 17:17:08.169  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 62abe01bee039651
+2021-04-24 17:17:08.169  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619264828168
+2021-04-24 17:17:08.169  INFO 14960 --- [restartedMain] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Subscribed to topic(s): Notifications
+2021-04-24 17:17:08.169  INFO 14960 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-04-24 17:17:08.179  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8021 (http) with context path ''
+2021-04-24 17:17:08.193  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Started TweetServiceApplication in 1.106 seconds (JVM running for 209.998)
+2021-04-24 17:17:08.201  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Cluster ID: 24mMklN9QFyFdvurv8aiBg
+2021-04-24 17:17:08.204  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Discovered group coordinator host.docker.internal:9092 (id: 2147483647 rack: null)
+2021-04-24 17:17:08.205  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:17:08.208  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group.
+2021-04-24 17:17:08.209  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:17:08.214  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Finished assignment for group at generation 5: {consumer-kafka-tweet-service-3-9d912240-c913-450b-8cd8-fbbf6d1e0269=Assignment(partitions=[Notifications-0])}
+2021-04-24 17:17:08.217  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Successfully joined group with generation 5
+2021-04-24 17:17:08.218  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Notifying assignor about the new Assignment(partitions=[Notifications-0])
+2021-04-24 17:17:08.218  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Adding newly assigned partitions: Notifications-0
+2021-04-24 17:17:08.219  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Found no committed offset for partition Notifications-0
+2021-04-24 17:17:08.220  INFO 14960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-24 17:17:08.221  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Tweet Application Started Successfully....
+2021-04-24 17:17:08.231  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Resetting offset for partition Notifications-0 to offset 0.
+2021-04-24 17:17:08.231  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : kafka-tweet-service: partitions assigned: [Notifications-0]
+2021-04-24 17:17:09.703  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Revoke previously assigned partitions Notifications-0
+2021-04-24 17:17:09.703  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : kafka-tweet-service: partitions revoked: [Notifications-0]
+2021-04-24 17:17:09.703  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Member consumer-kafka-tweet-service-3-9d912240-c913-450b-8cd8-fbbf6d1e0269 sending LeaveGroup request to coordinator host.docker.internal:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2021-04-24 17:17:09.704  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-kafka-tweet-service-3, groupId=kafka-tweet-service] Unsubscribed all topics or patterns and assigned partitions
+2021-04-24 17:17:09.704  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-04-24 17:17:09.717  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] essageListenerContainer$ListenerConsumer : kafka-tweet-service: Consumer stopped
+2021-04-24 17:17:09.728  INFO 14960 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:17:10.051  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 14960 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 17:17:10.052  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 17:17:10.351  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 17:17:10.392  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 17:17:10.572  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 17:17:10.574  INFO 14960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 17:17:10.574  INFO 14960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 17:17:10.620  INFO 14960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 17:17:10.620  INFO 14960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 564 ms
+2021-04-24 17:17:10.857  INFO 14960 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 17:17:10.908  INFO 14960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 17:17:10.889  INFO 14960 --- [cluster-ClusterId{value='6084053ee2dcd40eb80c97ae', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:7, serverValue:717}] to localhost:27017
+2021-04-24 17:17:10.935  INFO 14960 --- [cluster-ClusterId{value='6084053ee2dcd40eb80c97ae', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11743800}
+2021-04-24 17:17:10.937  INFO 14960 --- [cluster-rtt-ClusterId{value='6084053ee2dcd40eb80c97ae', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:718}] to localhost:27017
+2021-04-24 17:17:11.025  INFO 14960 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:17:11.107  INFO 14960 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-kafka-tweet-service-4
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = kafka-tweet-service
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-04-24 17:17:11.114  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.6.0
+2021-04-24 17:17:11.114  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 62abe01bee039651
+2021-04-24 17:17:11.114  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619264831114
+2021-04-24 17:17:11.115  INFO 14960 --- [restartedMain] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Subscribed to topic(s): Notifications
+2021-04-24 17:17:11.115  INFO 14960 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-04-24 17:17:11.124  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8021 (http) with context path ''
+2021-04-24 17:17:11.127  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Cluster ID: 24mMklN9QFyFdvurv8aiBg
+2021-04-24 17:17:11.129  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Discovered group coordinator host.docker.internal:9092 (id: 2147483647 rack: null)
+2021-04-24 17:17:11.129  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Started TweetServiceApplication in 1.132 seconds (JVM running for 212.934)
+2021-04-24 17:17:11.130  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:17:11.134  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group.
+2021-04-24 17:17:11.139  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:17:11.147  INFO 14960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-24 17:17:11.148  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Tweet Application Started Successfully....
+2021-04-24 17:17:11.159  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Finished assignment for group at generation 7: {consumer-kafka-tweet-service-4-e0c0f907-7ad8-4372-b5fc-0d3f73b6efd7=Assignment(partitions=[Notifications-0])}
+2021-04-24 17:17:11.162  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Successfully joined group with generation 7
+2021-04-24 17:17:11.162  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Notifying assignor about the new Assignment(partitions=[Notifications-0])
+2021-04-24 17:17:11.162  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Adding newly assigned partitions: Notifications-0
+2021-04-24 17:17:11.164  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Found no committed offset for partition Notifications-0
+2021-04-24 17:17:11.170  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.SubscriptionState    : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Resetting offset for partition Notifications-0 to offset 0.
+2021-04-24 17:17:11.170  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : kafka-tweet-service: partitions assigned: [Notifications-0]
+2021-04-24 17:17:30.236  INFO 14960 --- [http-nio-8021-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-24 17:17:30.236  INFO 14960 --- [http-nio-8021-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-24 17:17:30.237  INFO 14960 --- [http-nio-8021-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-24 17:17:30.254  INFO 14960 --- [http-nio-8021-exec-3] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2021-04-24 17:17:30.277  INFO 14960 --- [http-nio-8021-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.6.0
+2021-04-24 17:17:30.279  INFO 14960 --- [http-nio-8021-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 62abe01bee039651
+2021-04-24 17:17:30.280  INFO 14960 --- [http-nio-8021-exec-3] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619264850277
+2021-04-24 17:17:30.306  INFO 14960 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: 24mMklN9QFyFdvurv8aiBg
+2021-04-24 17:17:30.419  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:719}] to localhost:27017
+2021-04-24 17:18:07.515  INFO 14960 --- [http-nio-8021-exec-2] com.tweetapp.TweetServiceApplication     : TweetController :: getAllTweets :: Method Started
+2021-04-24 17:18:39.019  WARN 14960 --- [http-nio-8021-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'loginId' for method parameter type String is not present]
+2021-04-24 17:18:45.054  INFO 14960 --- [http-nio-8021-exec-10] com.tweetapp.TweetServiceApplication     : TweetController :: getAllTweets :: Method Started
+2021-04-24 17:19:23.308  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Revoke previously assigned partitions Notifications-0
+2021-04-24 17:19:23.309  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : kafka-tweet-service: partitions revoked: [Notifications-0]
+2021-04-24 17:19:23.309  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Member consumer-kafka-tweet-service-4-e0c0f907-7ad8-4372-b5fc-0d3f73b6efd7 sending LeaveGroup request to coordinator host.docker.internal:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2021-04-24 17:19:23.310  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-kafka-tweet-service-4, groupId=kafka-tweet-service] Unsubscribed all topics or patterns and assigned partitions
+2021-04-24 17:19:23.310  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-04-24 17:19:23.324  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] essageListenerContainer$ListenerConsumer : kafka-tweet-service: Consumer stopped
+2021-04-24 17:19:23.328  INFO 14960 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:19:23.335  INFO 14960 --- [Thread-19] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:9, serverValue:719}] to localhost:27017 because the pool has been closed.
+2021-04-24 17:19:23.338  INFO 14960 --- [Thread-19] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2021-04-24 17:19:23.749  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 14960 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 17:19:23.750  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 17:19:23.993  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 17:19:24.025  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 17:19:24.145  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 17:19:24.146  INFO 14960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 17:19:24.146  INFO 14960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 17:19:24.167  INFO 14960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-24 17:19:24.168  INFO 14960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 413 ms
+2021-04-24 17:19:24.219  INFO 14960 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 17:19:24.238  WARN 14960 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tweetController': Unsatisfied dependency expressed through field 'tweetService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tweetServiceImpl': Unsatisfied dependency expressed through field 'tweetRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tweetRepository' defined in com.tweetapp.repository.TweetRepository defined in @EnableMongoRepositories declared on MongoRepositoriesRegistrar.EnableMongoRepositoriesConfiguration: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mappingMongoConverter' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mappingMongoConverter' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tweetapp.model.User] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@225c7f4d]
+2021-04-24 17:19:24.244  INFO 14960 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-24 17:19:24.262  INFO 14960 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-24 17:19:24.296 ERROR 14960 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tweetController': Unsatisfied dependency expressed through field 'tweetService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tweetServiceImpl': Unsatisfied dependency expressed through field 'tweetRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tweetRepository' defined in com.tweetapp.repository.TweetRepository defined in @EnableMongoRepositories declared on MongoRepositoriesRegistrar.EnableMongoRepositoriesConfiguration: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mappingMongoConverter' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mappingMongoConverter' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tweetapp.model.User] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@225c7f4d]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) [spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) [spring-boot-2.4.5.jar:2.4.5]
+	at com.tweetapp.TweetServiceApplication.main(TweetServiceApplication.java:15) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tweetServiceImpl': Unsatisfied dependency expressed through field 'tweetRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tweetRepository' defined in com.tweetapp.repository.TweetRepository defined in @EnableMongoRepositories declared on MongoRepositoriesRegistrar.EnableMongoRepositoriesConfiguration: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mappingMongoConverter' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mappingMongoConverter' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tweetapp.model.User] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@225c7f4d]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tweetRepository' defined in com.tweetapp.repository.TweetRepository defined in @EnableMongoRepositories declared on MongoRepositoriesRegistrar.EnableMongoRepositoriesConfiguration: Cannot resolve reference to bean 'mongoTemplate' while setting bean property 'mongoOperations'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mappingMongoConverter' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mappingMongoConverter' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tweetapp.model.User] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@225c7f4d]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:342) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1689) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1434) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 40 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mappingMongoConverter' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mappingMongoConverter' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tweetapp.model.User] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@225c7f4d]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 53 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mappingMongoConverter' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDatabaseFactoryDependentConfiguration.class]: Unsatisfied dependency expressed through method 'mappingMongoConverter' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tweetapp.model.User] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@225c7f4d]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 63 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongoMappingContext' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tweetapp.model.User] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@225c7f4d]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 77 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.tweetapp.model.User] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@225c7f4d]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:704) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.data.mapping.context.AbstractMappingContext.addPersistentEntity(AbstractMappingContext.java:384) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.mapping.context.AbstractMappingContext.addPersistentEntity(AbstractMappingContext.java:333) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at java.lang.Iterable.forEach(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.data.mapping.context.AbstractMappingContext.initialize(AbstractMappingContext.java:462) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.data.mapping.context.AbstractMappingContext.afterPropertiesSet(AbstractMappingContext.java:454) ~[spring-data-commons-2.4.8.jar:2.4.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 88 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: LList;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_201]
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.Class.getDeclaredFields(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.3.6.jar:5.3.6]
+	... 96 common frames omitted
+Caused by: java.lang.ClassNotFoundException: List
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_201]
+	at java.lang.Class.forName(Unknown Source) ~[na:1.8.0_201]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[na:1.8.0_201]
+	... 100 common frames omitted
+
+2021-04-24 17:19:41.184  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Starting TweetServiceApplication using Java 1.8.0_201 on Lab-637512111686956354-1 with PID 14960 (C:\Mid Tier\tweet-service\target\classes started by User in C:\Mid Tier\tweet-service)
+2021-04-24 17:19:41.185  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : No active profile set, falling back to default profiles: default
+2021-04-24 17:19:41.553  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-04-24 17:19:41.588  INFO 14960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 2 MongoDB repository interfaces.
+2021-04-24 17:19:41.678  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8021 (http)
+2021-04-24 17:19:41.681  INFO 14960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-24 17:19:41.682  INFO 14960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-24 17:19:41.704  INFO 14960 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-04-24 17:19:41.704  INFO 14960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 515 ms
+2021-04-24 17:19:41.774  INFO 14960 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-04-24 17:19:41.780  INFO 14960 --- [cluster-ClusterId{value='608405d5e2dcd40eb80c97b0', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:12, serverValue:724}] to localhost:27017
+2021-04-24 17:19:41.783  INFO 14960 --- [cluster-ClusterId{value='608405d5e2dcd40eb80c97b0', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2593199}
+2021-04-24 17:19:41.783  INFO 14960 --- [cluster-rtt-ClusterId{value='608405d5e2dcd40eb80c97b0', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:13, serverValue:725}] to localhost:27017
+2021-04-24 17:19:41.812  INFO 14960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-24 17:19:41.929  INFO 14960 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-24 17:19:42.028  INFO 14960 --- [restartedMain] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-kafka-tweet-service-5
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = kafka-tweet-service
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-04-24 17:19:42.038  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.6.0
+2021-04-24 17:19:42.038  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 62abe01bee039651
+2021-04-24 17:19:42.038  INFO 14960 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619264982038
+2021-04-24 17:19:42.039  INFO 14960 --- [restartedMain] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] Subscribed to topic(s): Notifications
+2021-04-24 17:19:42.039  INFO 14960 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-04-24 17:19:42.044  INFO 14960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8021 (http) with context path ''
+2021-04-24 17:19:42.052  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Started TweetServiceApplication in 0.908 seconds (JVM running for 363.857)
+2021-04-24 17:19:42.054  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] Cluster ID: 24mMklN9QFyFdvurv8aiBg
+2021-04-24 17:19:42.055  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] Discovered group coordinator host.docker.internal:9092 (id: 2147483647 rack: null)
+2021-04-24 17:19:42.057  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:19:42.058  INFO 14960 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-04-24 17:19:42.060  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group.
+2021-04-24 17:19:42.060  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] (Re-)joining group
+2021-04-24 17:19:42.061  INFO 14960 --- [restartedMain] com.tweetapp.TweetServiceApplication     : Tweet Application Started Successfully....
+2021-04-24 17:19:42.068  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] Finished assignment for group at generation 9: {consumer-kafka-tweet-service-5-27025a1d-9617-4179-828d-c401f851ecf1=Assignment(partitions=[Notifications-0])}
+2021-04-24 17:19:42.073  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.AbstractCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] Successfully joined group with generation 9
+2021-04-24 17:19:42.073  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] Notifying assignor about the new Assignment(partitions=[Notifications-0])
+2021-04-24 17:19:42.073  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] Adding newly assigned partitions: Notifications-0
+2021-04-24 17:19:42.076  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-kafka-tweet-service-5, groupId=kafka-tweet-service] Setting offset for partition Notifications-0 to the committed offset FetchPosition{offset=1, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[host.docker.internal:9092 (id: 0 rack: null)], epoch=0}}
+2021-04-24 17:19:42.076  INFO 14960 --- [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : kafka-tweet-service: partitions assigned: [Notifications-0]
+2021-04-24 17:19:45.059  INFO 14960 --- [http-nio-8021-exec-10] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-24 17:19:45.060  INFO 14960 --- [http-nio-8021-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-24 17:19:45.062  INFO 14960 --- [http-nio-8021-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-24 17:19:45.064  INFO 14960 --- [http-nio-8021-exec-10] com.tweetapp.TweetServiceApplication     : TweetController :: getAllTweets :: Method Started
+2021-04-24 17:19:45.083  INFO 14960 --- [http-nio-8021-exec-10] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:14, serverValue:726}] to localhost:27017
+2021-04-24 17:20:58.875  INFO 14960 --- [http-nio-8021-exec-5] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-2
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2021-04-24 17:20:58.888  INFO 14960 --- [http-nio-8021-exec-5] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 2.6.0
+2021-04-24 17:20:58.888  INFO 14960 --- [http-nio-8021-exec-5] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 62abe01bee039651
+2021-04-24 17:20:58.889  INFO 14960 --- [http-nio-8021-exec-5] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1619265058888
+2021-04-24 17:20:58.938  INFO 14960 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-2] Cluster ID: 24mMklN9QFyFdvurv8aiBg
