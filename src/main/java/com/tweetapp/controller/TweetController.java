@@ -36,43 +36,43 @@ public class TweetController {
 
 	@GetMapping("/all")
 	public List<Tweet> getAllTweets() {
-		TweetLogger.LOGGER.info("TweetController :: getAllTweets :: Method Started");
+		TweetLogger.LOGGER.info("TweetController :: getAllTweets");
 		return tweetService.getAllTweets();
 	}
 
 	@GetMapping("/user/{user}")
 	public List<Tweet> getAllTweets(@PathVariable String loginId) {
-		TweetLogger.LOGGER.info("TweetController :: getAllTweets :: Method Started");
+		TweetLogger.LOGGER.info("TweetController :: getAllTweets");
 		return tweetService.getAllTweets(loginId);
 	}
 
 	@PostMapping("/user/add")
 	public String addTweet(@RequestBody AddTweetRequest addTweetRequest) {
-		TweetLogger.LOGGER.info("TweetController :: addTweet :: Method Started");
+		TweetLogger.LOGGER.info("TweetController :: addTweet");
 		return tweetService.addTweet(addTweetRequest);
 	}
 
 	@PutMapping("/user/update")
 	public String updateTweet(@RequestBody UpdateTweetRequest UpdateTweetRequest) {
-		TweetLogger.LOGGER.info("TweetController :: updateTweet :: Method Started");
+		TweetLogger.LOGGER.info("TweetController :: updateTweet");
 		return tweetService.updateTweet(UpdateTweetRequest);
 	}
 
 	@PutMapping("/user/like/{tweetId}/{loginId}")
 	public String likeTweet(@PathVariable String tweetId, @PathVariable String loginId) {
-		TweetLogger.LOGGER.info("TweetController :: likeTweet :: Method Started");
+		TweetLogger.LOGGER.info("TweetController :: likeTweet");
 		return tweetService.likeTweet(tweetId, loginId);
 	}
 
 	@DeleteMapping("/user/delete/{tweetId}")
 	public String deleteTweet(@PathVariable String tweetId) {
-		TweetLogger.LOGGER.info("TweetController :: deleteTweet :: Method Started");
+		TweetLogger.LOGGER.info("TweetController :: deleteTweet");
 		return tweetService.deleteTweet(tweetId);
 	}
 
 	@PutMapping("/user/reply")
 	public String replyTweet(@RequestBody ReplyTweetRequest replyTweetRequest) {
-		TweetLogger.LOGGER.info("TweetController :: replyTweet :: Method Started");
+		TweetLogger.LOGGER.info("TweetController :: replyTweet");
 		return tweetService.replyTweet(replyTweetRequest);
 	}
 

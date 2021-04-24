@@ -4,6 +4,7 @@ package com.tweetapp.model;
  * @author Seelam Jagadeeswara Reddy
  *
  */
+
 public class AddTweetRequest {
 
 	private String postedBy;

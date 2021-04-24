@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.tweetapp.TweetLogger;
 import com.tweetapp.kafka.Producer;
 
 /**
@@ -20,7 +21,8 @@ public class KafkaController {
 	Producer producer;
 
 	@PostMapping("/notification/{notification}")
-	public void sendNotification(@PathVariable String notification) {
-		producer.publishToTopic(notification);
+	public String sendNotification(@PathVariable String notification) {
+		TweetLogger.LOGGER.info("KafkaController :: sendNotification");
+		return producer.publishToTopic(notification);
 	}
 }
