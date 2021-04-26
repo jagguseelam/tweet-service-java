@@ -15,6 +15,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Tweet {
 
 	String _id;
+	String name;
 	String loginId;
 	String description;
 	String postedBy;
@@ -22,6 +23,14 @@ public class Tweet {
 	Date lastUpdatedTime;
 	ArrayList<Likes> likes;
 	ArrayList<Comments> comments;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	public String getLoginId() {
 		return loginId;

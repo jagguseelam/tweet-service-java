@@ -40,7 +40,7 @@ public class TweetController {
 		return tweetService.getAllTweets();
 	}
 
-	@GetMapping("/user/{user}")
+	@GetMapping("/user/{loginId}")
 	public List<Tweet> getAllTweets(@PathVariable String loginId) {
 		TweetLogger.LOGGER.info("TweetController :: getAllTweets");
 		return tweetService.getAllTweets(loginId);

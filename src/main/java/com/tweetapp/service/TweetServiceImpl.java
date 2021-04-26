@@ -36,7 +36,7 @@ public class TweetServiceImpl implements TweetService {
 	@Override
 	public List<Tweet> getAllTweets(String loginId) {
 		TweetLogger.LOGGER.info("TweetServiceImpl :: getAllTweets :: User");
-		return tweetRepository.findByLoginId(loginId);
+		return tweetRepository.findByPostedBy(loginId);
 	}
 
 	@Override

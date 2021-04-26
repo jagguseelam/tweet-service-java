@@ -58,7 +58,7 @@ public class UserServiceImpl implements UserService {
 	public User login(UserLoginRequest userLoginRequest) throws UserNotFoundException {
 		TweetLogger.LOGGER.info("UserServiceImpl :: login");
 		User user = null;
-		user = userRepository.findByLoginIdAndPassword(userLoginRequest.getLoginId(), userLoginRequest.getPassword());
+		user = userRepository.findByEmailAndPassword(userLoginRequest.getEmail(), userLoginRequest.getPassword());
 		if (user == null) {
 			throw new UserNotFoundException();
 		} else {

@@ -35,6 +35,7 @@ public class TweetRepositoryOperationsImpl implements TweetRepositoryOperations 
 		addTweet.setLoginId(addTweetRequest.getLoginId());
 		addTweet.setPostedBy(addTweetRequest.getPostedBy());
 		addTweet.setPostedTime(new Date());
+		addTweet.setName(addTweetRequest.getName());
 
 		try {
 			mongoTemplate.insert(addTweet);

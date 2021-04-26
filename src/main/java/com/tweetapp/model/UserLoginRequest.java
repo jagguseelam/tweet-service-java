@@ -5,7 +5,7 @@ package com.tweetapp.model;
  *
  */
 public class UserLoginRequest {
-	private String loginId;
+	private String email;
 
 	private String password;
 
@@ -17,12 +17,12 @@ public class UserLoginRequest {
 		this.password = password;
 	}
 
-	public String getLoginId() {
-		return loginId;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setLoginId(String loginId) {
-		this.loginId = loginId;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 }

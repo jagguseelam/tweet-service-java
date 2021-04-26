@@ -18,4 +18,6 @@ public interface TweetRepository extends MongoRepository<Tweet, String> {
 
 	List<Tweet> findByLoginId(String loginId);
 
+	List<Tweet> findByPostedBy(String loginId);
+
 }

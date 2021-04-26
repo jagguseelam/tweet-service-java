@@ -11,6 +11,15 @@ public class AddTweetRequest {
 	private String description;
 	private String postedTime;
 	private String loginId;
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	public String getLoginId() {
 		return loginId;
